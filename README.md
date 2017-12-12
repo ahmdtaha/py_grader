@@ -1,5 +1,5 @@
 # Python Automatic grader
-This vanilla library automate python unittests. It is a simple library with simple capabilities. I used it to grade UMD CMSC426 computer vision course submissions. Thus, It integrates smooth with UMD ELMS submissions. The following assumptions must hold so the grader works properly. Yet, all these assumptions are easy to tweak for different preferences.
+This vanilla library automate python unittests. It is a simple library with simple capabilities. I used it to grade UMD CMSC426 computer vision course submissions. Thus, It integrates smooth with [UMD ELMS](https://elms.umd.edu/) submissions. The following assumptions must hold so the grader works properly. Yet, all these assumptions are easy to tweak for different preferences.
 
 ## Assumptions
 * Student submissions are zip files named with students names
@@ -17,7 +17,7 @@ This vanilla library automate python unittests. It is a simple library with simp
 
 
 ## Contributions
- The grader features are easy to extend. I think the following features are most for future consideration
+ The grader features are easy to extend. I think the following features are the most important to consider
  
 * Define a unittest format to allow arbitary weighted test cases
 * Extend library to run public, release and secret test in a single run 
